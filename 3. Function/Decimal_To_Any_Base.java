@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Decimal_To_Any_Base {
     public static int getValueIndecimal(int n, int b){
-        // write your code here
+        // write your code
         int rv = 0;
 
         int p = 1;
