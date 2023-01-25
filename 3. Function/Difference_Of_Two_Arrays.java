@@ -25,7 +25,6 @@ public class Difference_Of_Two_Arrays {
             int d = 0;
             int alv = i >= 0? a1[i]: 0;
 
-            //System.out.println(j);
             if(a2[j] + c >= alv){
                 d = a2[j] + c - alv;
             }else{
