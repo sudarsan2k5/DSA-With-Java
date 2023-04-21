@@ -1,17 +1,15 @@
 import java.util.Scanner;
 
-public class ceil_floor {
+public class cell_floor {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        System.out.print("Enter Length of Array: "); // array length
         int n = scn.nextInt();
-
-        int[] arr = new int[n];
-        for(int i = 0; i < arr.length; i++){ // array value input
+        int [] arr = new int[n];
+        for(int i = 0; i < arr.length; i++){
             arr[i] = scn.nextInt();
         }
-        System.out.print("Enter Number: ");
-        int data = scn.nextInt(); // search num
+        System.out.print("Enter Search: ");
+        int data = scn.nextInt();
         int lo = 0;
         int hi = arr.length - 1;
         int cell = 0;
@@ -20,7 +18,7 @@ public class ceil_floor {
         while(lo <= hi){
             int mid = (lo + hi) / 2;
             if(data < arr[mid]){
-                hi = mid - 1;
+                hi = mid -1;
                 cell = arr[mid];
             }else if(data > arr[mid]){
                 lo = mid + 1;
@@ -32,6 +30,6 @@ public class ceil_floor {
             }
         }
         System.out.println(cell);
-        System.out.println(floor);
+        System.out.print(floor);
     }
 }
