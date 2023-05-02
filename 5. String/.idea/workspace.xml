@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e5eeee9-8604-4381-a084-755dd65492b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/print_all_substring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/palindromicSubstrings.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/palindromic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
