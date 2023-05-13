@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e5eeee9-8604-4381-a084-755dd65492b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/String_two_cons_char.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/permutation_of_string.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String_Compression.java" beforeDir="false" afterPath="$PROJECT_DIR$/String_Compression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toggle_case.java" beforeDir="false" afterPath="$PROJECT_DIR$/toggle_case.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
