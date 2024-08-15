@@ -17,7 +17,6 @@ public class addLast {
       Node temp = new Node();
       temp.data = val;
       temp.next = null;
-
       if(size == 0){
         head = tail = temp;
       }else{
@@ -25,6 +24,20 @@ public class addLast {
         tail = temp;
       }
       size++;
+      // if(size == 0){
+      //   Node temp = new Node();
+      //   temp.data = val;
+      //   temp.next = null;
+      //   head = tail = temp;
+      //   size++;
+      // }else{
+      //   Node temp = new Node();
+      //   temp.data = val;
+      //   temp.next = null;
+      //   tail.next = temp;
+      //   tail = temp;
+      //   size++;
+      // }
     }
   }
 
