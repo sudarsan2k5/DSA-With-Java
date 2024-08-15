@@ -4,11 +4,11 @@ public class linklist {
         int data;
         Node next;
     }
-    public static class linklist{
-        Node head;
-        Node tail;
-        int size;
-    }
+    // public static class linklist{
+    //     Node head;
+    //     Node tail;
+    //     int size;
+    // }
     public static void main(String[] args) {
     }
 }
